@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14854.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="rk8-dt-sMr">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14806.4"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Map-->
+        <scene sceneID="btI-0w-Sae">
+            <objects>
+                <viewController id="u4J-i2-OHG" customClass="MapViewController" customModule="FoodTracks" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Z38-jJ-PDg">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" rotateEnabled="NO" pitchEnabled="NO" showsUserLocation="YES" showsBuildings="NO" showsCompass="NO" showsPointsOfInterest="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YlG-Wc-EPs">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            </mapView>
+                            <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="tAU-9t-fHi">
+                                <rect key="frame" x="20" y="78" width="374" height="49"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VNd-WG-4Ym">
+                                        <rect key="frame" x="299" y="0.0" width="72" height="49"/>
+                                        <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <state key="normal" image="list.bullet" catalog="system">
+                                            <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="large"/>
+                                        </state>
+                                    </button>
+                                    <searchBar contentMode="redraw" misplaced="YES" searchBarStyle="minimal" text="" translatesAutoresizingMaskIntoConstraints="NO" id="RND-kL-0gq">
+                                        <rect key="frame" x="4" y="-6" width="312" height="60"/>
+                                        <textInputTraits key="textInputTraits" returnKeyType="search"/>
+                                    </searchBar>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <constraints>
+                                    <constraint firstItem="VNd-WG-4Ym" firstAttribute="top" secondItem="tAU-9t-fHi" secondAttribute="top" id="0aI-2S-1cT"/>
+                                    <constraint firstAttribute="bottom" secondItem="RND-kL-0gq" secondAttribute="bottom" constant="6" id="1Gb-0x-guP"/>
+                                    <constraint firstItem="RND-kL-0gq" firstAttribute="top" secondItem="tAU-9t-fHi" secondAttribute="top" constant="6" id="GwW-d5-G73"/>
+                                    <constraint firstAttribute="trailing" secondItem="RND-kL-0gq" secondAttribute="trailing" constant="70" id="S0b-EW-Qf4"/>
+                                    <constraint firstAttribute="trailing" secondItem="VNd-WG-4Ym" secondAttribute="trailing" constant="3" id="d8D-yB-6DO"/>
+                                    <constraint firstAttribute="bottom" secondItem="VNd-WG-4Ym" secondAttribute="bottom" id="fj6-GO-oYm"/>
+                                    <constraint firstItem="VNd-WG-4Ym" firstAttribute="leading" secondItem="tAU-9t-fHi" secondAttribute="leading" constant="299" id="pCr-Ux-o7P"/>
+                                    <constraint firstItem="RND-kL-0gq" firstAttribute="leading" secondItem="tAU-9t-fHi" secondAttribute="leading" constant="9" id="sHY-Pc-3Jc"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="tAU-9t-fHi" firstAttribute="trailing" secondItem="Z38-jJ-PDg" secondAttribute="trailingMargin" id="5AQ-ap-llW"/>
+                            <constraint firstItem="YlG-Wc-EPs" firstAttribute="top" secondItem="Z38-jJ-PDg" secondAttribute="topMargin" constant="-44" id="97A-hU-G6T"/>
+                            <constraint firstItem="tAU-9t-fHi" firstAttribute="centerX" secondItem="YlG-Wc-EPs" secondAttribute="centerX" id="djQ-wM-UDl"/>
+                            <constraint firstItem="tAU-9t-fHi" firstAttribute="top" secondItem="PXA-nX-P1Y" secondAttribute="top" constant="22" id="ilO-Tv-ncF"/>
+                            <constraint firstItem="YlG-Wc-EPs" firstAttribute="centerY" secondItem="Z38-jJ-PDg" secondAttribute="centerY" id="kl6-1l-YV1"/>
+                            <constraint firstItem="tAU-9t-fHi" firstAttribute="leading" secondItem="Z38-jJ-PDg" secondAttribute="leadingMargin" id="kpC-VL-GeP"/>
+                            <constraint firstItem="YlG-Wc-EPs" firstAttribute="leading" secondItem="PXA-nX-P1Y" secondAttribute="leading" id="p9c-qB-hQZ"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="PXA-nX-P1Y"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Map" image="map.fill" catalog="system" id="HJB-RV-lja"/>
+                    <connections>
+                        <outlet property="mapView" destination="YlG-Wc-EPs" id="yyL-sE-cKW"/>
+                        <outlet property="searchBarContainer" destination="tAU-9t-fHi" id="j1p-c4-aug"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jVc-hQ-w5v" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-6797.1014492753629" y="-1933.2589285714284"/>
+        </scene>
+        <!--Bookmarked-->
+        <scene sceneID="oce-7w-GJr">
+            <objects>
+                <viewController id="18a-G6-BeW" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="0wi-Q7-WKg">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="kEC-lQ-ZgM"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Bookmarked" image="bookmark.fill" catalog="system" id="jgw-yy-HEf"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cEP-ym-rKb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-5319" y="-1933"/>
+        </scene>
+        <!--User-->
+        <scene sceneID="cgZ-Qj-V4Y">
+            <objects>
+                <viewController id="VaD-27-8vh" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="aP5-Sy-Ojr">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="UFb-Q9-bAb"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="User" image="person.fill" catalog="system" id="Ke3-Us-uTn"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FJu-9f-G5f" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-3806" y="-1933"/>
+        </scene>
+        <!--Settings-->
+        <scene sceneID="cxB-oe-QHe">
+            <objects>
+                <viewController id="4aM-JJ-NBG" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ptB-bg-cPP">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="zxq-VI-sj3"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Settings" image="gear" catalog="system" id="FPN-jw-yVL"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zbj-Bt-CY8" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2307" y="-1933"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="UJB-Di-CNO">
+            <objects>
+                <tabBarController modalPresentationStyle="fullScreen" id="rk8-dt-sMr" sceneMemberID="viewController">
+                    <nil key="simulatedTopBarMetrics"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="r4d-iz-GUJ">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="u4J-i2-OHG" kind="relationship" relationship="viewControllers" id="RTz-EO-hpq"/>
+                        <segue destination="18a-G6-BeW" kind="relationship" relationship="viewControllers" id="aaQ-Ml-vZ8"/>
+                        <segue destination="VaD-27-8vh" kind="relationship" relationship="viewControllers" id="Od0-LK-Q1s"/>
+                        <segue destination="4aM-JJ-NBG" kind="relationship" relationship="viewControllers" id="pWF-bR-4ua"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2aE-zp-ELs" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-4364" y="-2924"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="bookmark.fill" catalog="system" width="54" height="64"/>
+        <image name="gear" catalog="system" width="64" height="60"/>
+        <image name="list.bullet" catalog="system" width="64" height="44"/>
+        <image name="map.fill" catalog="system" width="64" height="54"/>
+        <image name="person.fill" catalog="system" width="64" height="60"/>
+    </resources>
+</document>
