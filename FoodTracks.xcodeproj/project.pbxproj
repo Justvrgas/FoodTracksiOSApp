@@ -8,6 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		47D02B3A22A6D36BBF061F3F /* Pods_FoodTracksTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0EA23D5B9A72887F6B26D91 /* Pods_FoodTracksTests.framework */; };
+		4D0B996D230A293C00DAF1F1 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D0B996C230A293C00DAF1F1 /* ListViewController.swift */; };
+		4D0B996F230A294100DAF1F1 /* FoodTrucks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D0B996E230A294100DAF1F1 /* FoodTrucks.swift */; };
+		4D0B9971230A296D00DAF1F1 /* BookmarkedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D0B9970230A296D00DAF1F1 /* BookmarkedViewController.swift */; };
+		4D137C3F232193EA00914D95 /* TruckInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D137C3E232193EA00914D95 /* TruckInfoViewController.swift */; };
+		4D137C402321A0AC00914D95 /* Hijo Puta Peligroso.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4DA68A4B22FF812D006AAFE0 /* Hijo Puta Peligroso.otf */; };
+		4D137C412321A0AD00914D95 /* Hijo Puta Peligroso.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4DA68A4B22FF812D006AAFE0 /* Hijo Puta Peligroso.otf */; };
+		4D228FA623049E5A00B948FB /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D228FA523049E5A00B948FB /* UserViewController.swift */; };
+		4D228FA82304E19400B948FB /* NetworkingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D228FA72304E19400B948FB /* NetworkingService.swift */; };
+		4D228FAA2304ECE000B948FB /* FoodTrucks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D228FA92304ECE000B948FB /* FoodTrucks.swift */; };
+		4D99D01622FF14F80095B889 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D99D01522FF14F80095B889 /* SettingsViewController.swift */; };
+		4DA68A4C22FF812D006AAFE0 /* Hijo Puta Peligroso.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4DA68A4B22FF812D006AAFE0 /* Hijo Puta Peligroso.otf */; };
+		4DA68A4E22FF829D006AAFE0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DA68A4D22FF829D006AAFE0 /* Assets.xcassets */; };
 		5374901A1112D25E7B2B51C3 /* Pods_FoodTracks.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A0C3CF7FC8D5CBF1C732AAE /* Pods_FoodTracks.framework */; };
 		5A849AEA8E725D0C301F18D7 /* Pods_FoodTracksUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33E5B057ECB38196CD1A80E4 /* Pods_FoodTracksUITests.framework */; };
 		C704FC3722F7319B00474F4E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C704FC3622F7319B00474F4E /* AppDelegate.swift */; };
@@ -16,9 +28,7 @@
 		C704FC4122F7319C00474F4E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C704FC3F22F7319C00474F4E /* LaunchScreen.storyboard */; };
 		C704FC4C22F7319D00474F4E /* FoodTracksTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C704FC4B22F7319D00474F4E /* FoodTracksTests.swift */; };
 		C704FC5722F7319D00474F4E /* FoodTracksUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C704FC5622F7319D00474F4E /* FoodTracksUITests.swift */; };
-		C7815F3F22FA585200D54804 /* Hijo Puta Peligroso.otf in Resources */ = {isa = PBXBuildFile; fileRef = C7815F3E22FA585200D54804 /* Hijo Puta Peligroso.otf */; };
 		C787512422FA692800FCEDE7 /* AppFeatures.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C787512322FA692800FCEDE7 /* AppFeatures.storyboard */; };
-		C79AA24322FBB706004DC4BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C79AA24222FBB706004DC4BF /* Assets.xcassets */; };
 		C79AA24722FBBFB4004DC4BF /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C79AA24622FBBFB4004DC4BF /* MapViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -42,6 +52,16 @@
 /* Begin PBXFileReference section */
 		33E5B057ECB38196CD1A80E4 /* Pods_FoodTracksUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FoodTracksUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FDAA75DDDD4CCEC9EED9D16 /* Pods-FoodTracksTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodTracksTests.debug.xcconfig"; path = "Target Support Files/Pods-FoodTracksTests/Pods-FoodTracksTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4D0B996C230A293C00DAF1F1 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		4D0B996E230A294100DAF1F1 /* FoodTrucks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FoodTrucks.swift; path = /Users/justinvargas/Desktop/FoodTracksiOSApp/FoodTrucks.swift; sourceTree = "<absolute>"; };
+		4D0B9970230A296D00DAF1F1 /* BookmarkedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookmarkedViewController.swift; sourceTree = "<group>"; };
+		4D137C3E232193EA00914D95 /* TruckInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TruckInfoViewController.swift; path = /Users/justinvargas/Desktop/FoodTracksiOSApp/TruckInfoViewController.swift; sourceTree = "<absolute>"; };
+		4D228FA523049E5A00B948FB /* UserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewController.swift; sourceTree = "<group>"; };
+		4D228FA72304E19400B948FB /* NetworkingService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingService.swift; sourceTree = "<group>"; };
+		4D228FA92304ECE000B948FB /* FoodTrucks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FoodTrucks.swift; path = /Users/justinvargas/Desktop/FoodTracksiOSApp/FoodTrucks.swift; sourceTree = "<absolute>"; };
+		4D99D01522FF14F80095B889 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		4DA68A4B22FF812D006AAFE0 /* Hijo Puta Peligroso.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Hijo Puta Peligroso.otf"; sourceTree = SOURCE_ROOT; };
+		4DA68A4D22FF829D006AAFE0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4FF684D8092633B81CDCDDDA /* Pods-FoodTracksUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodTracksUITests.debug.xcconfig"; path = "Target Support Files/Pods-FoodTracksUITests/Pods-FoodTracksUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		7A0C3CF7FC8D5CBF1C732AAE /* Pods_FoodTracks.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FoodTracks.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F55EA630B7F0E2A63D32A78 /* Pods-FoodTracksTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodTracksTests.release.xcconfig"; path = "Target Support Files/Pods-FoodTracksTests/Pods-FoodTracksTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -60,10 +80,8 @@
 		C704FC5222F7319D00474F4E /* FoodTracksUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoodTracksUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C704FC5622F7319D00474F4E /* FoodTracksUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodTracksUITests.swift; sourceTree = "<group>"; };
 		C704FC5822F7319D00474F4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C7815F3E22FA585200D54804 /* Hijo Puta Peligroso.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Hijo Puta Peligroso.otf"; path = "../../../Downloads/Hijo Puta Peligroso.otf"; sourceTree = "<group>"; };
 		C787512122FA63CF00FCEDE7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 		C787512322FA692800FCEDE7 /* AppFeatures.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AppFeatures.storyboard; sourceTree = "<group>"; };
-		C79AA24222FBB706004DC4BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../.Trash/Assets.xcassets; sourceTree = "<group>"; };
 		C79AA24622FBBFB4004DC4BF /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		E0EA23D5B9A72887F6B26D91 /* Pods_FoodTracksTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FoodTracksTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -96,6 +114,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4D99D01222FF14AB0095B889 /* Bookmarked */ = {
+			isa = PBXGroup;
+			children = (
+				4D0B9970230A296D00DAF1F1 /* BookmarkedViewController.swift */,
+			);
+			path = Bookmarked;
+			sourceTree = "<group>";
+		};
+		4D99D01322FF14DE0095B889 /* User */ = {
+			isa = PBXGroup;
+			children = (
+				4D228FA523049E5A00B948FB /* UserViewController.swift */,
+			);
+			path = User;
+			sourceTree = "<group>";
+		};
+		4D99D01422FF14E50095B889 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				4D99D01522FF14F80095B889 /* SettingsViewController.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
 		5773D44C93F5338E4B2F2A1A /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -144,13 +186,13 @@
 		C704FC3522F7319B00474F4E /* FoodTracks */ = {
 			isa = PBXGroup;
 			children = (
-				C79AA24222FBB706004DC4BF /* Assets.xcassets */,
-				C7815F3E22FA585200D54804 /* Hijo Puta Peligroso.otf */,
+				4DA68A4B22FF812D006AAFE0 /* Hijo Puta Peligroso.otf */,
 				C704FC3F22F7319C00474F4E /* LaunchScreen.storyboard */,
 				C7815F4322FA5A5200D54804 /* Support */,
 				C7815F4622FA5A9900D54804 /* Main */,
 				C7815F4922FA60B500D54804 /* AppFeatures */,
 				C704FC4222F7319C00474F4E /* Info.plist */,
+				4DA68A4D22FF829D006AAFE0 /* Assets.xcassets */,
 			);
 			path = FoodTracks;
 			sourceTree = "<group>";
@@ -176,6 +218,8 @@
 		C7815F4322FA5A5200D54804 /* Support */ = {
 			isa = PBXGroup;
 			children = (
+				4D228FA92304ECE000B948FB /* FoodTrucks.swift */,
+				4D228FA72304E19400B948FB /* NetworkingService.swift */,
 				C704FC3622F7319B00474F4E /* AppDelegate.swift */,
 			);
 			name = Support;
@@ -185,6 +229,7 @@
 		C7815F4622FA5A9900D54804 /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				4D0B996E230A294100DAF1F1 /* FoodTrucks.swift */,
 				C704FC3A22F7319B00474F4E /* Main.storyboard */,
 				C704FC3822F7319B00474F4E /* ViewController.swift */,
 			);
@@ -197,7 +242,9 @@
 			children = (
 				C787512322FA692800FCEDE7 /* AppFeatures.storyboard */,
 				C79AA24422FBBF59004DC4BF /* Map */,
-				C79AA24522FBBF68004DC4BF /* Bookmarked */,
+				4D99D01322FF14DE0095B889 /* User */,
+				4D99D01422FF14E50095B889 /* Settings */,
+				4D99D01222FF14AB0095B889 /* Bookmarked */,
 			);
 			name = AppFeatures;
 			path = ..;
@@ -207,15 +254,10 @@
 			isa = PBXGroup;
 			children = (
 				C79AA24622FBBFB4004DC4BF /* MapViewController.swift */,
+				4D0B996C230A293C00DAF1F1 /* ListViewController.swift */,
+				4D137C3E232193EA00914D95 /* TruckInfoViewController.swift */,
 			);
 			name = Map;
-			sourceTree = "<group>";
-		};
-		C79AA24522FBBF68004DC4BF /* Bookmarked */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Bookmarked;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,7 +271,7 @@
 				C704FC2F22F7319B00474F4E /* Sources */,
 				C704FC3022F7319B00474F4E /* Frameworks */,
 				C704FC3122F7319B00474F4E /* Resources */,
-				150F23B8BAFDAD6AEE70ED84 /* [CP] Embed Pods Frameworks */,
+				6E101B49BBE65DF535A882E8 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -326,11 +368,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C7815F3F22FA585200D54804 /* Hijo Puta Peligroso.otf in Resources */,
+				4DA68A4C22FF812D006AAFE0 /* Hijo Puta Peligroso.otf in Resources */,
 				C704FC4122F7319C00474F4E /* LaunchScreen.storyboard in Resources */,
 				C787512422FA692800FCEDE7 /* AppFeatures.storyboard in Resources */,
 				C704FC3C22F7319B00474F4E /* Main.storyboard in Resources */,
-				C79AA24322FBB706004DC4BF /* Assets.xcassets in Resources */,
+				4DA68A4E22FF829D006AAFE0 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -338,6 +380,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D137C402321A0AC00914D95 /* Hijo Puta Peligroso.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -345,29 +388,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D137C412321A0AD00914D95 /* Hijo Puta Peligroso.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		150F23B8BAFDAD6AEE70ED84 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-FoodTracks/Pods-FoodTracks-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-FoodTracks/Pods-FoodTracks-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FoodTracks/Pods-FoodTracks-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		3ADB5E053A3E73163A7F8E2B /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -412,6 +439,23 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		6E101B49BBE65DF535A882E8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FoodTracks/Pods-FoodTracks-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FoodTracks/Pods-FoodTracks-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FoodTracks/Pods-FoodTracks-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		D4A00AA06298E75C4FE2373F /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -442,8 +486,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				C704FC3922F7319B00474F4E /* ViewController.swift in Sources */,
+				4D228FA623049E5A00B948FB /* UserViewController.swift in Sources */,
+				4D137C3F232193EA00914D95 /* TruckInfoViewController.swift in Sources */,
+				4D0B996F230A294100DAF1F1 /* FoodTrucks.swift in Sources */,
+				4D228FAA2304ECE000B948FB /* FoodTrucks.swift in Sources */,
 				C79AA24722FBBFB4004DC4BF /* MapViewController.swift in Sources */,
+				4D0B9971230A296D00DAF1F1 /* BookmarkedViewController.swift in Sources */,
+				4D228FA82304E19400B948FB /* NetworkingService.swift in Sources */,
 				C704FC3722F7319B00474F4E /* AppDelegate.swift in Sources */,
+				4D0B996D230A293C00DAF1F1 /* ListViewController.swift in Sources */,
+				4D99D01622FF14F80095B889 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
