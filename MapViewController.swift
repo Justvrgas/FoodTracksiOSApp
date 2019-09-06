@@ -25,6 +25,7 @@ class MapViewController: UIViewController{
         searchBarContainer.layer.cornerRadius = 10
         //map stuff
         checkLocationServices()
+        centerViewOnUserLocation()
         //Call API for trucks
         NetworkingService.fetchAPI.getTruckList { (truck, status, error) in
             if status {
