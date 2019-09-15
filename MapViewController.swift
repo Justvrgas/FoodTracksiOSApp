@@ -9,6 +9,11 @@
 import UIKit
 import MapKit
 import CoreLocation
+
+class CustomPointAnnotation: MKPointAnnotation {
+    var imageName: String!
+}
+
 class MapViewController: UIViewController{
 
     @IBOutlet weak var searchBarContainer: UIView!
@@ -131,8 +136,9 @@ class MapViewController: UIViewController{
     
     func showTrucks(){
         for index in 0..<trucks.count{
-           annotation.coordinate = CLLocationCoordinate2D(latitude: trucks[index].lat, longitude: trucks[index].lng)
-           mapView.addAnnotation(annotation)
+            annotation.coordinate = CLLocationCoordinate2D(latitude: trucks[index].lat,
+            longitude: trucks[index].lng)
+            mapView.addAnnotation(annotation)
         }
     }
     

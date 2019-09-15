@@ -17,6 +17,7 @@
 		4D228FA623049E5A00B948FB /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D228FA523049E5A00B948FB /* UserViewController.swift */; };
 		4D228FA82304E19400B948FB /* NetworkingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D228FA72304E19400B948FB /* NetworkingService.swift */; };
 		4D228FAA2304ECE000B948FB /* FoodTrucks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D228FA92304ECE000B948FB /* FoodTrucks.swift */; };
+		4D27422E232B28990007E62B /* AddNewTruckViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D27422D232B28990007E62B /* AddNewTruckViewController.swift */; };
 		4D99D01622FF14F80095B889 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D99D01522FF14F80095B889 /* SettingsViewController.swift */; };
 		4DA68A4C22FF812D006AAFE0 /* Hijo Puta Peligroso.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4DA68A4B22FF812D006AAFE0 /* Hijo Puta Peligroso.otf */; };
 		4DA68A4E22FF829D006AAFE0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DA68A4D22FF829D006AAFE0 /* Assets.xcassets */; };
@@ -59,6 +60,7 @@
 		4D228FA523049E5A00B948FB /* UserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewController.swift; sourceTree = "<group>"; };
 		4D228FA72304E19400B948FB /* NetworkingService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingService.swift; sourceTree = "<group>"; };
 		4D228FA92304ECE000B948FB /* FoodTrucks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FoodTrucks.swift; path = /Users/justinvargas/Desktop/FoodTracksiOSApp/FoodTrucks.swift; sourceTree = "<absolute>"; };
+		4D27422D232B28990007E62B /* AddNewTruckViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewTruckViewController.swift; sourceTree = "<group>"; };
 		4D99D01522FF14F80095B889 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		4DA68A4B22FF812D006AAFE0 /* Hijo Puta Peligroso.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Hijo Puta Peligroso.otf"; sourceTree = SOURCE_ROOT; };
 		4DA68A4D22FF829D006AAFE0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -254,6 +256,7 @@
 			isa = PBXGroup;
 			children = (
 				C79AA24622FBBFB4004DC4BF /* MapViewController.swift */,
+				4D27422D232B28990007E62B /* AddNewTruckViewController.swift */,
 				4D0B996C230A293C00DAF1F1 /* ListViewController.swift */,
 				4D137C3E232193EA00914D95 /* TruckInfoViewController.swift */,
 			);
@@ -494,6 +497,7 @@
 				4D0B9971230A296D00DAF1F1 /* BookmarkedViewController.swift in Sources */,
 				4D228FA82304E19400B948FB /* NetworkingService.swift in Sources */,
 				C704FC3722F7319B00474F4E /* AppDelegate.swift in Sources */,
+				4D27422E232B28990007E62B /* AddNewTruckViewController.swift in Sources */,
 				4D0B996D230A293C00DAF1F1 /* ListViewController.swift in Sources */,
 				4D99D01622FF14F80095B889 /* SettingsViewController.swift in Sources */,
 			);
@@ -676,6 +680,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7FXZRLUNM7;
 				INFOPLIST_FILE = FoodTracks/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -696,6 +701,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7FXZRLUNM7;
 				INFOPLIST_FILE = FoodTracks/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
